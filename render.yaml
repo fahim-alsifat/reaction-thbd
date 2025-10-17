@@ -1,7 +1,8 @@
 services:
   - type: worker
     name: reaction-bot-thumbsup
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -14,7 +15,8 @@ services:
         value: "\U0001F44D"
   - type: worker
     name: reaction-bot-heart
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -27,7 +29,8 @@ services:
         value: "\u2764\uFE0F"
   - type: worker
     name: reaction-bot-grin
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -40,7 +43,8 @@ services:
         value: "\U0001F601"
   - type: worker
     name: reaction-bot-heart-eyes
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -53,7 +57,8 @@ services:
         value: "\U0001F60D"
   - type: worker
     name: reaction-bot-fire
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -66,7 +71,8 @@ services:
         value: "\U0001F525"
   - type: worker
     name: reaction-bot-kiss
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -79,7 +85,8 @@ services:
         value: "\U0001F444"
   - type: worker
     name: reaction-bot-warm
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -92,7 +99,8 @@ services:
         value: "\U0001F970"
   - type: worker
     name: reaction-bot-look
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -105,7 +113,8 @@ services:
         value: "\U0001F440"
   - type: worker
     name: reaction-bot-cool
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -118,7 +127,8 @@ services:
         value: "\U0001F60E"
   - type: worker
     name: reaction-bot-hundred
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -131,7 +141,8 @@ services:
         value: "\U0001F4AF"
   - type: worker
     name: reaction-bot-tear
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -144,7 +155,8 @@ services:
         value: "\U0001F622"
   - type: worker
     name: reaction-bot-warm2
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -157,7 +169,8 @@ services:
         value: "\U0001F970"
   - type: worker
     name: reaction-bot-clap
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -170,7 +183,8 @@ services:
         value: "\U0001F44F"
   - type: worker
     name: reaction-bot-raise
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
@@ -183,7 +197,8 @@ services:
         value: "\U0001F64C"
   - type: worker
     name: reaction-bot-grin2
-    env: python
+  env: python
+  pythonVersion: 3.11
     plan: starter
     region: oregon
     buildCommand: pip install -r requirements.txt
